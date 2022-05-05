@@ -1,0 +1,269 @@
+.header{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content:space-between;
+   padding: 30px 40px;
+}
+.header img{
+   max-width: 200px;
+}
+a{
+ text-emphasis: none;
+ text-decoration: none !important;
+}
+.social__media svg{
+   cursor: pointer;
+  font-size: 1.3rem;
+  margin: 0 15px;
+  color: rgb(255, 255, 255);
+}
+
+.social__media svg:hover{
+   cursor: pointer;
+   font-size: 1.3rem;
+   margin: 0 15px;
+   color: rgb(223, 31, 210);
+ }
+.hero__first__section{
+   background: url(./assets/bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   min-height:100vh;
+   /* height: 100% !important; */
+   /* max-width: 100vh; */
+}
+.hero__content{
+   text-align: center;
+   padding: 50px 0px;
+}
+.hero__content h1{
+   font-family: 'TTLakes',sans-serif;
+   font-size: 45px;
+   /* color: #fff; */
+   font-weight: 900;
+   font-style: italic;
+   text-transform: uppercase;
+   letter-spacing: 6px;
+   /* -webkit-text-fill-color: white; Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  color: transparent;
+}
+.hero__content h2{
+   font-family: 'RaceSpot' !important;
+   font-weight: 900;
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 45px;
+   letter-spacing: 0.9px;
+   margin: 20px 0px;
+   /* margin-top: 50px; */
+   /* font-style: italic; */
+}
+.hero__content p{
+   font-family: 'Sen',sans-serif;
+   font-size: 27px;
+   color: #fff;
+   font-weight: 400;
+   margin-top: 50px;
+   margin-bottom: 80px;
+}
+.video__player{
+   margin: 60px auto;
+   width: 889px !important;
+   box-shadow: 0 0 30px 1px #510354;
+   width: 889px;
+    height: 500px !important;
+}
+.html5-video-container video{
+   width: 900px !important;
+   height: 500px !important;
+   left: 0px !important;
+   top: 0px;
+}
+span{
+    background:#F8F8F8;
+    border: 5px solid #DFDFDF;
+    color: #717171;
+    font-size: 13px;
+    height: 30px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: -80px;
+    left:-30px;
+    display:none;
+    padding:0 20px;
+    /* color: #b2afaf; */
+    
+}
+span:after{
+    content:'Hover ';
+    position:absolute;
+    bottom:-10px; 
+    width:10px;
+    height:10px;
+    border-bottom:5px solid #dfdfdf;
+    border-right:5px solid #dfdfdf;
+    background:#f8f8f8;
+    left:50%;
+    margin-left:-10px;
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+.hover_effect:hover span{
+   display:block;
+}
+
+@media only screen and (max-width:992px){
+   .video__player{
+      width: 640px !important;
+      height: 360px !important;
+   }
+   .hero__first__section{
+      background: url(./assets/bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      min-height:192vh;
+   }
+}
+
+@media only screen and (max-width:767px){
+   .video__player{
+      width: 515px !important;
+    height: 291px !important;
+   }
+   .hero__first__section{
+      background: url(./assets/bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      min-height:222vh;
+   }
+   .hero__content h1{
+      font-family: 'TTLakes',sans-serif;
+      font-size: 45px;
+      /* color: #fff; */
+      font-weight: 900;
+      font-style: italic;
+      text-transform: uppercase;
+      letter-spacing: 6px;
+      /* -webkit-text-fill-color: white; Will override color (regardless of order) */
+     -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: #fff;
+     color: transparent;
+   }
+   .hero__content h2{
+      font-family: 'RaceSpot' !important;
+      font-weight: 900;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 40px;
+      letter-spacing: 0.9px;
+      margin: 20px 0px;
+      /* margin-top: 50px; */
+      /* font-style: italic; */
+   }
+}
+
+@media only screen and (max-width:540px){
+   .video__player {
+      width: 464px !important;
+      height: 261px !important;
+  }
+}
+@media only screen and (max-width:490px){
+   .video__player {
+      width: 320px !important;
+      height: 261px !important;
+  }
+  .hero__content h2{
+   font-family: 'RaceSpot',sans-serif !important;
+   font-weight: 900;
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 35px;
+   letter-spacing: 0.9px;
+   margin: 20px 0px;
+   /* font-style: italic; */
+}
+
+.header img{
+   max-width: 123px;
+}
+.social__media svg{
+   cursor: pointer;
+  font-size: 1rem;
+  margin: 0 8px;
+  color: rgb(255, 255, 255);
+}
+/* .social__media {
+   display: flex;
+   flex-direction: row;
+} */
+} 
+ 
+@media only screen and (max-width:395px){
+   .video__player {
+      width: 341px  !important;
+      height: 200px  !important;
+  }
+  .hero__content h1{
+   font-family: 'TTLakes',sans-serif;
+   font-size: 25px;
+   /* color: #fff; */
+   font-weight: 900;
+   font-style: italic;
+   text-transform: uppercase;
+   letter-spacing: 6px;
+   /* -webkit-text-fill-color: white; Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  color: transparent;
+}
+  .hero__content h2{
+   font-family: 'Sen',sans-serif;
+   font-weight: 900;
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 30px;
+   letter-spacing: 0.9px;
+   margin: 20px 0px;
+   /* font-style: italic; */
+}
+.hero__content p{
+   font-family: 'Sen',sans-serif;
+   font-size: 20px;
+   color: #fff;
+   font-weight: 400;
+   margin-top: 70px;
+   margin-bottom: 80px;
+}
+.header img{
+   max-width: 123px;
+}
+.social__media svg{
+   cursor: pointer;
+  font-size: 1rem;
+  margin: 0 8px;
+  color: rgb(255, 255, 255);
+}
+.hero__first__section{
+   background: url(./assets/bg.jpg);
+   /* background-repeat: no-repeat; */
+   /* background-size: cover; */
+   background-position: center;
+   height:100%;
+   /* background-attachment: fixed; */
+   /* height: 100% !important; */
+   /* max-width: 100vh; */
+}
+
+}
+

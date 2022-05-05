@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'TT Lakes Neue Expanded';
+    src: local('TT Lakes Neue Expanded Black Italic'), local('TT-Lakes-Neue-Expanded-Black-Italic'),
+        url('TTLakesNeueExp-BlackIt.woff2') format('woff2'),
+        url('TTLakesNeueExp-BlackIt.woff') format('woff'),
+        url('TTLakesNeueExp-BlackIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+  }
